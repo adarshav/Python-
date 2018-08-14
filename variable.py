@@ -25,5 +25,34 @@ print(string[-1: -5]);# doubt to be asked
 print(string[2:]); # prints the string starting from 3rd character
 print(string * 2);# asterisk acts as a repetition operator
 print(string + "Adarsha");# prints the concatenated string
-#
 
+#Lists- In python lists are the most versatile, lists are seperated by commas and enclosed in square brackets[]
+listType = [1, 2, 3, 4, 5, 6];
+print(type(listType));#returns <class 'list'>
+list1 = ['adarsha', 123, 'qwerty'];
+print(list1[1]);#slice operator can be used on any datatype
+print(listType[1:4]);#[2, 3, 4]
+print(list1 * 2);#(*)asterisk acts as a repetitional operator
+print(list1[-1]);
+list1[2] = 'python';#values in the list can be updated
+print(list1);
+
+#tuple
+tuple1 = (1, 'radha', 'kaveri');
+print(type(tuple1));# returns<class 'tuple'>
+#slice operator can also be used on tuples
+#values in the tuple cannot be updated
+
+#Dictionary type
+#Dictionary type is similar of Objects in javascript which has a key:value pair,it is enclosed in ({})flower brackets
+dict1 = {"name":"Adarsha", "age":21, "education":"MCA", "college":"PESU"};
+print(dict1);
+print(dict1["name"]);#dictionary type is enclosed in flower brackets and it can be accessed using square brackets
+print("Iam", dict1["name"], "and of", dict1["age"],"age", "completed my education from", dict1["college"]);
+dict2 = {"name":"virat", "age":31, "strikeRate":154.5};
+print("His name is", dict2["name"], "he is of", dict2["age"], "has a strikeRate of", dict2["strikeRate"]);
+print(int(34.5));
+print(float(43));
+print(str(123));
+print(complex(39.43));
+print(tuple("234"));
