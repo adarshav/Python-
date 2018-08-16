@@ -89,14 +89,29 @@
 # str1 = str(input("enter the string"));
 # print(str1.replace(" ", ""));
 
-# 17
+# 17 NOT COMPLETED
 # str1 = str(input("enter first strings"));
 # str2 = str(input("enter second string"));
 # str3 = str1[1]+str1[0]+str1[2:] + ' '+ str2[1]+str2[0] + str2[2:];
 # print(str3);
 
 #18
-str1 = str(input("enter the string"));
-str2 = str1.replace(str1[1], str1[len(str1)-2]);
-str2[1] = str1[1];
-print(str2);
+# str1 = str(input("enter the string"));
+# str2 = str1.replace(str1[1], str1[len(str1)-2]);
+# str2[1] = str1[1];
+# print(str2);
+
+#19 showing unique records
+# list1 = list(input("enter the items"));
+# list2 = list(set(list1));#set method shows unique records
+# print(list2);
+
+#8.generate tuple and list with user generated numbers
+# numbers = (input("enter numbers"));
+# print(list(numbers.split(',')));
+# print(tuple(numbers.split(',')));
+
+#9.
+colors = (input("enter the colours"));
+result = colors.split(' ');
+print(result[1::2]);
