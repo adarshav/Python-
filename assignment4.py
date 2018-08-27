@@ -10,7 +10,7 @@ print("{:5d}".format(12));
 print("{:2d}".format(1234));
 print("{:8.3f}".format(123.34567));
 print("{:05d}".format(12));
-
+print("{:d}".format(12))
 
 
 
