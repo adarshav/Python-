@@ -1,18 +1,18 @@
-#In python (') singleQuotes ("")doubleQuotes and (''' or """) tripleQuotes are used to denote the string literals to span the string across the multiple lines
-# variables are reserved memory locations to store values
-word = "adarsha";word1 = '''triple quotes are used to denotethe string literal that it can be used
- in multiple lines'''
-# In python explicit declaration of variables is not needed, the declaration happens automaticallywhen we assign the value to the variable  
-print(word);
-print(type(word)) # <class 'str'> this is what returned
-print(word1);
-#In python (#) hashtag is used for commenting lines
-a, b, c = 1, 2, '3';
-print('----------------------------------------');
-print(a, b, type(c));# type is used to know typeOf variable;'print' is used to print the output
-string = 'adarsha';number = 9663304987;# multi variables can be assigned in a single line with semicolan as statement terminator
-#print(number);
-del number; # 'del' keyword is used to delete the variable, multiple variables can be deleted with same method
+# #In python (') singleQuotes ("")doubleQuotes and (''' or """) tripleQuotes are used to denote the string literals to span the string across the multiple lines
+# # variables are reserved memory locations to store values
+# word = "adarsha";word1 = '''triple quotes are used to denotethe string literal that it can be used
+#  in multiple lines'''
+# # In python explicit declaration of variables is not needed, the declaration happens automaticallywhen we assign the value to the variable  
+# print(word);
+# print(type(word)) # <class 'str'> this is what returned
+# print(word1);
+# #In python (#) hashtag is used for commenting lines
+# a, b, c = 1, 2, '3';
+# print('----------------------------------------');
+# print(a, b, type(c));# type is used to know typeOf variable;'print' is used to print the output
+# string = 'adarsha';number = 9663304987;# multi variables can be assigned in a single line with semicolan as statement terminator
+# #print(number);
+# del number; # 'del' keyword is used to delete the variable, multiple variables can be deleted with same method
 
 #string datatype 
 string = "iam god, god is great";
@@ -38,21 +38,21 @@ list1[2] = 'python';#values in the list can be updated
 print(list1);
 
 #tuple
-tuple1 = (1, 'radha', 'kaveri');
-print(type(tuple1));# returns<class 'tuple'>
-#slice operator can also be used on tuples
-#values in the tuple cannot be updated
+# tuple1 = (1, 'radha', 'kaveri');
+# print(type(tuple1));# returns<class 'tuple'>
+# #slice operator can also be used on tuples
+# #values in the tuple cannot be updated
 
-#Dictionary type
-#Dictionary type is similar of Objects in javascript which has a key:value pair,it is enclosed in ({})flower brackets
-dict1 = {"name":"Adarsha", "age":21, "education":"MCA", "college":"PESU"};
-print(dict1);
-print(dict1["name"]);#dictionary type is enclosed in flower brackets and it can be accessed using square brackets
-print("Iam", dict1["name"], "and of", dict1["age"],"age", "completed my education from", dict1["college"]);
-dict2 = {"name":"virat", "age":31, "strikeRate":154.5};
-print("His name is", dict2["name"], "he is of", dict2["age"], "has a strikeRate of", dict2["strikeRate"]);
-print(int(34.5));
-print(float(43));
-print(str(123));
+# #Dictionary type
+# #Dictionary type is similar of Objects in javascript which has a key:value pair,it is enclosed in ({})flower brackets
+# dict1 = {"name":"Adarsha", "age":21, "education":"MCA", "college":"PESU"};
+# print(dict1);
+# print(dict1["name"]);#dictionary type is enclosed in flower brackets and it can be accessed using square brackets
+# print("Iam", dict1["name"], "and of", dict1["age"],"age", "completed my education from", dict1["college"]);
+# dict2 = {"name":"virat", "age":31, "strikeRate":154.5};
+# print("His name is", dict2["name"], "he is of", dict2["age"], "has a strikeRate of", dict2["strikeRate"]);
+# print(int(34.5));
+# print(float(43));
+# print(str(123));
 print(complex(39.43));
-print(tuple("234"));
+# print(tuple("234"));
